@@ -54,7 +54,7 @@ var webpackConfig = {
     module: {
         loaders: [
             {
-                test: /\.(jsx|es6)$/,
+                test: /\.(jsx|es6|js)$/,
                 exclude: /node_modules/,
                 loaders: jsLoaders
             },
